@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#canvas {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/736x/2b/5b/0b/2b5b0b3d6a3ef277d6caf43baea21770.jpg");
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+}
+
+img, h1, p {
+    cursor: pointer;
+}
+
+#heading{
+  font-size:50px;
+  text-align:center;
+  font-family: 'Comfortaa';
+  color: white;
+font-weight: normal;
+  text-shadow:69 1 20px black;
+}
+
+p {
+  font-family: 'Comfortaa', serif;
+  color: yellow;
+  text-align:center;
+  letter-spacing: 10px;
+  text-shadow:0 0 10px pink}
+
+input {
+  display: block;
+  background-color: rgba(0,0,0,0.7);
+  border: none;
+  font-size: 24px;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  margin: 10px auto;
+  outline: none;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons > button {
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Comfortaa', serif;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}
